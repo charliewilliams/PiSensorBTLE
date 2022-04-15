@@ -27,7 +27,7 @@ from advertisement import Advertisement
 from service import Application, Service, Characteristic, Descriptor
 from gpiozero import CPUTemperature
 
-GATT_CHRC_IFACE = "org.bluez.GattCharacteristic1"
+GATT_CHRC_IFACE = "org.bluez.GattCharacteristic2"
 NOTIFY_TIMEOUT = 5000
 
 class ThermometerAdvertisement(Advertisement):
